@@ -138,3 +138,14 @@ code[data-line-numbers-max-digits="2"] > [data-line]::before {
 code[data-line-numbers-max-digits="3"] > [data-line]::before {
   width: 3rem;
 }
+
+html.theme-transition,
+html.theme-transition body,
+html.theme-transition body *,
+html.theme-transition body *::before,
+html.theme-transition body *::after {
+  transition-property: background-color, border-color, box-shadow, color, fill,
+    opacity, stroke;
+  transition-duration: 550ms;
+  transition-timing-function: ease-in-out;
+}

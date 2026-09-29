@@ -1,7 +1,7 @@
-import Navbar from "@/components/navbar";
-import { ThemeProvider } from "@/components/theme-provider";
+import Navbar from "@/components/shared/navbar";
+import { ThemeProvider } from "@/components/shared/theme-provider";
 import { TooltipProvider } from "@/components/ui/tooltip";
-import { personalData } from "@/data/data";
+import { personalData } from "@/content/portfolio";
 import { cn } from "@/lib/utils";
 import type { Metadata } from "next";
 import { Ubuntu } from "next/font/google";
@@ -17,18 +17,16 @@ const fontSans = Ubuntu({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL(personalData.url),
   title: {
-    default: "Cristian Sosa | IT & Networks",
+    default: "Yordy Almerco | Redes y soporte TI",
     template: `%s | ${personalData.name}`,
   },
   description: personalData.description,
   openGraph: {
     title: `${personalData.name}`,
     description: personalData.description,
-    url: personalData.url,
     siteName: `${personalData.name}`,
-    locale: "en_US",
+    locale: "es_PE",
     type: "website",
   },
   robots: {
@@ -58,7 +56,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" suppressHydrationWarning>
+    <html lang="es" suppressHydrationWarning>
       <body
         className={cn(
           "min-h-screen bg-background font-sans antialiased max-w-2xl mx-auto py-12 sm:py-24 px-6",

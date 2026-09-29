@@ -1,10 +1,10 @@
-import { Contact } from "@/components/contact";
-import { Projects } from "@/components/projects";
-import { Hero } from "@/components/hero";
-import { About } from "@/components/about";
-import { Education } from "@/components/education";
-import { Work } from "@/components/work";
-import { Habilidades } from "@/components/habilidades";
+import { Contact } from "@/features/contact/components/contact";
+import { Projects } from "@/features/projects/components/projects";
+import { Hero } from "@/features/portfolio/components/hero";
+import { About } from "@/features/portfolio/components/about";
+import { Education } from "@/features/portfolio/components/education";
+import { Work } from "@/features/portfolio/components/work";
+import { Habilidades } from "@/features/portfolio/components/habilidades";
 
 const BLUR_FADE_DELAY = 0.04;
 
@@ -19,9 +19,9 @@ export default function Page() {
 
       <Education delay={BLUR_FADE_DELAY * 7} />
 
-      <Habilidades delay={BLUR_FADE_DELAY * 9} />
+      <Habilidades />
 
-      <Projects delay={BLUR_FADE_DELAY * 11} />
+      <Projects />
 
       <Contact delay={BLUR_FADE_DELAY * 13} />
     </main>

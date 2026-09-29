@@ -11,10 +11,10 @@ export function formatDate(date: string) {
   const targetDate = isoDate.split("T")[0];
 
   if (targetDate === today) {
-    return "Today";
+    return "Hoy";
   }
 
-  return new Date(isoDate).toLocaleDateString("en-us", {
+  return new Date(isoDate).toLocaleDateString("es-PE", {
     month: "short",
     day: "numeric",
     year: "numeric",
@@ -43,7 +43,7 @@ export const getErrorMessage = (error: unknown): string => {
   } else if (typeof error === "string") {
     message = error;
   } else {
-    message = "Something went wrong";
+    message = "Ocurrió un error";
   }
 
   return message;
