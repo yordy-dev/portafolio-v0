@@ -22,6 +22,12 @@
 
 <br />
 
+<p align="center">
+  <a href="https://portafolio-v0-topaz.vercel.app/">
+    <img src="https://img.shields.io/badge/Ver_portafolio_en_l%C3%ADnea-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Ver portafolio desplegado en Vercel" />
+  </a>
+</p>
+
 ## Sobre este proyecto
 
 Este repositorio contiene mi **portafolio web profesional**, diseñado para presentar de forma clara mi perfil en **Redes, Soporte Técnico y Ciberseguridad**, junto con mi experiencia, formación, habilidades y proyectos.
