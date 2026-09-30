@@ -19,6 +19,7 @@ export function Work({ delay = 0 }: WorkProps) {
           <BlurFade key={work.company} delay={delay + 0.01 + id * 0.05}>
             <ResumeCard
               key={work.company}
+              logoUrl={work.logo}
               altText={work.company}
               title={work.company}
               subtitle={work.title}

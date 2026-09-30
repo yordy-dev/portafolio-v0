@@ -1,7 +1,9 @@
 "use client";
 
 import type { educationData } from "@/content/portfolio";
+import { Icon } from "@iconify/react";
 import { motion } from "framer-motion";
+import Image from "next/image";
 import { useState } from "react";
 
 type EducationEntry = (typeof educationData)[number];
@@ -21,9 +23,19 @@ export function EducationCard({ education }: { education: EducationEntry }) {
       >
         <span
           aria-hidden="true"
-          className="flex size-12 shrink-0 items-center justify-center rounded-full border bg-background text-[10px] font-semibold text-muted-foreground"
+          className={`flex size-12 shrink-0 items-center justify-center rounded-full border text-[10px] font-semibold text-muted-foreground ${"logo" in education || "icon" in education ? "bg-white" : "bg-background"}`}
         >
-          {education.initials}
+          {"logo" in education ? (
+            <Image
+              src={education.logo}
+              alt=""
+              width={40}
+              height={40}
+              className="size-10 rounded-full object-contain"
+            />
+          ) : "icon" in education ? (
+            <Icon icon={education.icon} className="size-6 text-[#1BA0D7]" />
+          ) : null}
         </span>
         <span className="min-w-0 flex-1">
           <span className="flex flex-col gap-1 sm:flex-row sm:items-baseline sm:justify-between sm:gap-4">

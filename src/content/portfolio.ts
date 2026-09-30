@@ -93,6 +93,7 @@ export const contactData = {
 export const experiencesData = [
   {
     company: "Importaciones YyF",
+    logo: "/institutions/importaciones-yyf.png",
     href: "#work",
     location: "Lima, Perú",
     title: "Auxiliar de Soporte TI",
@@ -120,6 +121,7 @@ export const educationData = [
     id: "utp",
     school: "Universidad Tecnológica del Perú (UTP)",
     initials: "UTP",
+    logo: "/institutions/utp.png",
     degree: "Ingeniería de Sistemas e Informática",
     period: "2022 - Actualidad",
     description: [
@@ -131,7 +133,8 @@ export const educationData = [
     id: "cisco",
     school: "Cisco Networking Academy",
     initials: "Cisco",
-    degree: "Formación en redes y ciberseguridad · 2 cursos",
+    icon: "simple-icons:cisco",
+    degree: "Formación en redes y ciberseguridad · 3 cursos",
     period: "2026 - 2026",
     courses: [
       {
@@ -152,12 +155,22 @@ export const educationData = [
           "Acredita la finalización del curso Introduction to Cybersecurity.",
         ],
       },
+      {
+        id: "cisco-seguridad-terminales",
+        title: "Seguridad de Terminales",
+        issued: "Emitido el 30 de septiembre de 2026",
+        description: [
+          "Fundamentos para proteger equipos finales frente a amenazas, vulnerabilidades y ataques comunes.",
+          "Curso ofrecido por la UTP Virtual a través de Cisco Networking Academy.",
+        ],
+      },
     ],
   },
   {
     id: "uni",
     school: "Universidad Nacional de Ingeniería (UNI)",
     initials: "UNI",
+    logo: "/institutions/uni.png",
     degree:
       "Formación en computación en la nube y análisis de datos · 2 cursos",
     period: "2025 - 2025",
@@ -187,6 +200,7 @@ export const educationData = [
     id: "forge",
     school: "Fundación Forge",
     initials: "Forge",
+    logo: "/institutions/forge.png",
     degree: "Formación en habilidades personales y laborales · 4 certificados",
     period: "2024 - 2024",
     courses: [

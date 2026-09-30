@@ -1,29 +1,47 @@
-# Portafolio - Yordy Kenyi Almerco Solis
+# Portafolio de Yordy Almerco
 
-Portafolio personal desarrollado con **Next.js**, **React**, **Tailwind CSS** y **TypeScript**, enfocado en Soporte TI, Redes y Administración de Sistemas.
+> Portafolio profesional enfocado en soporte TI, redes y ciberseguridad.
 
-## 🚀 Tecnologías Principales
+Este sitio reúne mi perfil, experiencia laboral, formación, certificaciones,
+habilidades técnicas y proyectos personales en un solo lugar.
 
-- **Framework:** Next.js (App Router)
-- **Lenguaje:** TypeScript
-- **Estilos:** Tailwind CSS, Framer Motion
-- **Componentes:** Radix UI, Lucide Icons, Iconify
+## Perfil
 
-## 🛠️ Instalación y Ejecución Local
+Soy estudiante de Ingeniería de Sistemas con experiencia en soporte TI y enfoque
+en redes. Me interesa el diagnóstico de incidencias, la conectividad, el
+monitoreo y la mejora continua de los servicios tecnológicos.
 
-1. Clona el repositorio:
-```bash
-git clone https://github.com/yordy-dev/portafolio.git
-```
+## Contenido del portafolio
 
-2. Instala las dependencias:
-```bash
-npm install
-```
+| Sección | Qué presenta |
+| --- | --- |
+| Sobre mí | Mi perfil profesional y enfoque de aprendizaje. |
+| Experiencia laboral | Experiencia en soporte técnico, mantenimiento y redes LAN/WiFi. |
+| Educación | Formación universitaria y certificaciones. |
+| Habilidades | Tecnologías y herramientas que utilizo. |
+| Proyectos | Laboratorios y proyectos de soporte TI, monitoreo y redes. |
+| Contacto | Enlaces para conectar conmigo y consultar mi CV. |
 
-3. Inicia el servidor de desarrollo:
-```bash
-npm run dev
-```
+## Aspectos desarrollados
 
-4. Abre [http://localhost:3000](http://localhost:3000) en tu navegador.
+- Diseño responsive para escritorio y dispositivos móviles.
+- Tema claro y oscuro con transición suave.
+- Animaciones de entrada al recorrer las secciones.
+- Tarjetas de proyectos con vista detallada y enlaces a GitHub.
+- Línea de tiempo desplegable para experiencia laboral, formación y certificados.
+- CV disponible para consulta desde la navegación flotante.
+
+## Tecnologías
+
+**Next.js · React · TypeScript · Tailwind CSS · Framer Motion · Radix UI · Iconify**
+
+## Enlaces
+
+- [GitHub](https://github.com/yordy-dev)
+- [LinkedIn](https://www.linkedin.com/in/yordy-almerco/)
+- [Correo](mailto:yordy.k.almerco@gmail.com)
+
+---
+
+Este repositorio presenta mi portafolio profesional y los recursos que lo
+componen. No está planteado como una plantilla para distribución o reutilización.

@@ -3,6 +3,7 @@
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Card, CardHeader } from "@/components/ui/card";
 import { cn } from "@/lib/utils";
+import { Icon } from "@iconify/react";
 import { motion } from "framer-motion";
 import { ChevronRightIcon } from "lucide-react";
 import Link from "next/link";
@@ -10,6 +11,7 @@ import React from "react";
 
 interface ResumeCardProps {
   logoUrl?: string;
+  icon?: string;
   altText: string;
   title: string;
   subtitle?: string;
@@ -20,6 +22,7 @@ interface ResumeCardProps {
 }
 export const ResumeCard = ({
   logoUrl,
+  icon,
   altText,
   title,
   subtitle,
@@ -45,7 +48,14 @@ export const ResumeCard = ({
     >
       <Card className="flex">
         <div className="flex-none">
-          <Avatar className="border size-12 m-auto bg-muted-background dark:bg-foreground">
+          <Avatar
+            className={cn(
+              "m-auto size-12 border",
+              logoUrl || icon
+                ? "bg-white"
+                : "bg-muted-background dark:bg-foreground",
+            )}
+          >
             {logoUrl && (
               <AvatarImage
                 src={logoUrl}
@@ -53,7 +63,11 @@ export const ResumeCard = ({
                 className="object-contain"
               />
             )}
-            <AvatarFallback>{altText[0]}</AvatarFallback>
+            {icon ? (
+              <Icon icon={icon} className="size-6 text-sky-600" />
+            ) : (
+              <AvatarFallback>{altText[0]}</AvatarFallback>
+            )}
           </Avatar>
         </div>
         <div className="flex-grow ml-4 items-center flex-col group">

@@ -2,7 +2,7 @@
 
 import BlurFade from "@/components/motion/blur-fade";
 import BlurFadeText from "@/components/motion/blur-fade-text";
-import { Avatar, AvatarFallback } from "@/components/ui/avatar";
+import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { personalData } from "@/content/portfolio";
 import { Link as LinkIcon } from "lucide-react";
 import Link from "next/link";
@@ -31,6 +31,11 @@ export function Hero({ delay = 0 }: HeroProps) {
           </div>
           <BlurFade delay={delay}>
             <Avatar className="size-28 border">
+              <AvatarImage
+                src="/yordy-almerco.png"
+                alt={personalData.name}
+                className="object-cover"
+              />
               <AvatarFallback>{personalData.initials}</AvatarFallback>
             </Avatar>
           </BlurFade>
