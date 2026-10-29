@@ -38,14 +38,17 @@ export const habilidadesData = [
   "Routers básicos",
   "Windows",
   "Linux básico",
-  "AnyDesk",
-  "TeamViewer",
   "GLPI",
   "PowerShell",
   "Git",
   "Java",
   "Python básico",
   "Excel",
+  "React",
+  "TypeScript",
+  "Rust",
+  "Tauri",
+  "Electron",
 ] as const;
 export const skillsData = [
   {
@@ -400,5 +403,75 @@ export const projectsData: readonly Project[] = [
       "/projects/mundo-electronico-inicio.png",
       "/projects/mundo-electronico-catalogo.png",
     ],
+  },
+  {
+    title: "Vozbit",
+    context: "Aplicación de dictado local para Windows",
+    description:
+      "Aplicación de escritorio que captura voz y la transcribe en el equipo con Whisper o Parakeet, sin enviar el audio a un servicio remoto de transcripción.",
+    detailedDescription:
+      "Vozbit es una aplicación de dictado para Windows x64. Usa motores locales Whisper o Parakeet para transcribir voz en el dispositivo y puede entregar el texto al campo enfocado. El instalador de las versiones publicadas incluye motores y modelos para instalar la aplicación sin conexión. El repositorio también documenta opciones de privacidad y licencias de componentes de terceros.",
+    keyFeatures: [
+      "Transcripción de voz en el equipo con Whisper o Parakeet.",
+      "Entrega texto al campo que tiene el foco en Windows.",
+      "Instalador x64 con motores y modelos incluidos.",
+      "Consulta de versiones y verificación SHA-256 del instalador.",
+      "Avisos y licencias de componentes de terceros incluidos.",
+    ],
+    technologies: [
+      { name: "React", icon: "logos:react" },
+      { name: "TypeScript", icon: "logos:typescript-icon" },
+      { name: "Tauri", icon: "logos:tauri" },
+      { name: "Rust", icon: "logos:rust" },
+      { name: "SQLite", icon: "logos:sqlite" },
+      { name: "Whisper" },
+      { name: "Parakeet" },
+      { name: "Vite", icon: "logos:vitejs" },
+    ],
+    links: [
+      {
+        type: "GitHub",
+        href: "https://github.com/yordy-dev/vozbit",
+        icon: "github",
+      },
+    ],
+    images: ["/projects/vozbit-cover.svg"],
+  },
+  {
+    title: "Tomixel",
+    context: "Grabadora y editor local para Windows",
+    description:
+      "Aplicación de escritorio para grabar pantalla, cámara y audio, usar un teleprompter y editar la grabación antes de exportarla.",
+    detailedDescription:
+      "Tomixel es una grabadora de pantalla local para Windows. Permite capturar pantalla completa, una ventana o un área; combinar cámara y audio; y usar un teleprompter flotante que no aparece en el video final. Incluye herramientas para editar y exportar grabaciones, y procesa los videos en el equipo sin requerir una cuenta ni subirlos a la nube.",
+    keyFeatures: [
+      "Captura de pantalla completa, ventanas o áreas seleccionadas.",
+      "Cámara reposicionable, micrófono y audio del sistema.",
+      "Teleprompter flotante y zoom durante la grabación.",
+      "Edición, capturas al portapapeles y exportación MP4.",
+      "Procesamiento local y recuperación de grabaciones pendientes.",
+    ],
+    technologies: [
+      { name: "React", icon: "logos:react" },
+      { name: "TypeScript", icon: "logos:typescript-icon" },
+      { name: "Electron", icon: "logos:electron" },
+      { name: "Vite", icon: "logos:vitejs" },
+      { name: "FFmpeg", icon: "logos:ffmpeg" },
+      { name: "MediaPipe" },
+      { name: "Noise Suppression" },
+    ],
+    links: [
+      {
+        type: "GitHub",
+        href: "https://github.com/yordy-dev/tomixel",
+        icon: "github",
+      },
+      {
+        type: "Descargar",
+        href: "https://github.com/yordy-dev/tomixel/releases/latest",
+        icon: "globe",
+      },
+    ],
+    images: ["/projects/tomixel-cover.svg"],
   },
 ];

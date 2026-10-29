@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="750" viewBox="0 0 900 750" role="img" aria-labelledby="title desc">
+  <title id="title">Vozbit — dictado local</title>
+  <desc id="desc">Portada gráfica del proyecto Vozbit, aplicación de dictado local para Windows.</desc>
+  <rect width="900" height="750" fill="#101713"/>
+  <path d="M0 590h900" stroke="#26352d" stroke-width="2"/>
+  <text x="64" y="88" fill="#7c8c81" font-family="Consolas,monospace" font-size="20">WINDOWS DESKTOP · LOCAL SPEECH</text>
+  <rect x="65" y="135" width="770" height="340" rx="8" fill="#17221a" stroke="#34513b" stroke-width="2"/>
+  <rect x="65" y="135" width="770" height="48" fill="#202d23"/>
+  <circle cx="92" cy="159" r="6" fill="#46be63"/><text x="115" y="165" fill="#b7c7b8" font-family="Consolas,monospace" font-size="17">vozbit / dictation session</text>
+  <image href="/projects/vozbit-icon.png" x="110" y="218" width="155" height="155"/>
+  <g fill="#45c862"><rect x="332" y="290" width="13" height="52" rx="6"/><rect x="360" y="258" width="13" height="116" rx="6"/><rect x="388" y="281" width="13" height="70" rx="6"/><rect x="416" y="237" width="13" height="158" rx="6"/><rect x="444" y="273" width="13" height="88" rx="6"/><rect x="472" y="250" width="13" height="135" rx="6"/><rect x="500" y="287" width="13" height="60" rx="6"/></g>
+  <text x="552" y="300" fill="#dce8dc" font-family="Arial,sans-serif" font-size="22">Whisper / Parakeet</text>
+  <text x="552" y="337" fill="#91a594" font-family="Consolas,monospace" font-size="17">transcription on device</text>
+  <text x="110" y="426" fill="#69ce7c" font-family="Consolas,monospace" font-size="16">● READY  ·  AUDIO STAYS LOCAL</text>
+  <text x="64" y="565" fill="#f1f5f1" font-family="Arial,sans-serif" font-size="65" font-weight="700">VOZBIT</text>
+  <text x="67" y="620" fill="#bdc9be" font-family="Arial,sans-serif" font-size="27">Dictado por voz. Procesado en tu equipo.</text>
+  <text x="67" y="690" fill="#718274" font-family="Consolas,monospace" font-size="16">REACT  /  TYPESCRIPT  /  TAURI  /  RUST</text>
+</svg>

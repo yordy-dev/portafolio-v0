@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="750" viewBox="0 0 900 750" role="img" aria-labelledby="title desc">
+  <title id="title">Tomixel — grabación de pantalla</title>
+  <desc id="desc">Portada gráfica del proyecto Tomixel, grabadora y editor local para Windows.</desc>
+  <rect width="900" height="750" fill="#171313"/>
+  <path d="M0 590h900" stroke="#3e2927" stroke-width="2"/>
+  <text x="64" y="88" fill="#a18a88" font-family="Consolas,monospace" font-size="20">WINDOWS DESKTOP · SCREEN RECORDING</text>
+  <rect x="65" y="135" width="770" height="340" rx="8" fill="#241d1d" stroke="#6b3d38" stroke-width="2"/>
+  <rect x="65" y="135" width="770" height="48" fill="#302322"/>
+  <circle cx="92" cy="159" r="6" fill="#fa634e"/><text x="115" y="165" fill="#ddc8c5" font-family="Consolas,monospace" font-size="17">tomixel / recording studio</text>
+  <rect x="108" y="216" width="450" height="218" fill="#101418" stroke="#59413e" stroke-width="2"/>
+  <path d="M145 257h375M145 277h260" stroke="#2d3940" stroke-width="7"/>
+  <rect x="168" y="309" width="132" height="92" fill="#1e2a30" stroke="#47575b"/>
+  <circle cx="234" cy="355" r="27" fill="#fa634e"/><circle cx="234" cy="355" r="10" fill="#fff0ee"/>
+  <rect x="585" y="226" width="205" height="194" fill="#302524" stroke="#68433d"/>
+  <image href="/projects/tomixel-icon.png" x="625" y="246" width="125" height="125"/>
+  <text x="647" y="399" fill="#f1d9d5" font-family="Consolas,monospace" font-size="16">REC 00:18</text>
+  <text x="64" y="565" fill="#f7f2f1" font-family="Arial,sans-serif" font-size="65" font-weight="700">TOMIXEL</text>
+  <text x="67" y="620" fill="#cfbfbd" font-family="Arial,sans-serif" font-size="27">Graba, edita y exporta localmente.</text>
+  <text x="67" y="690" fill="#a08784" font-family="Consolas,monospace" font-size="16">REACT  /  TYPESCRIPT  /  ELECTRON  /  FFMPEG</text>
+</svg>
