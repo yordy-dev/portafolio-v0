@@ -435,7 +435,13 @@ export const projectsData: readonly Project[] = [
         icon: "github",
       },
     ],
-    images: ["/projects/vozbit-cover.svg"],
+    images: [
+      "/projects/vozbit-demo.gif",
+      "/projects/vozbit-inicio.png",
+      "/projects/vozbit-indicator-demo.gif",
+      "/projects/vozbit-diccionario.png",
+      "/projects/vozbit-configuracion.png",
+    ],
   },
   {
     title: "Tomixel",
@@ -472,6 +478,13 @@ export const projectsData: readonly Project[] = [
         icon: "globe",
       },
     ],
-    images: ["/projects/tomixel-cover.svg"],
+    images: [
+      "/projects/tomixel-demo.gif",
+      "/projects/tomixel-inicio.png",
+      "/projects/tomixel-fuentes.png",
+      "/projects/tomixel-grabacion.png",
+      "/projects/tomixel-teleprompter.png",
+      "/projects/tomixel-editor.png",
+    ],
   },
 ];
